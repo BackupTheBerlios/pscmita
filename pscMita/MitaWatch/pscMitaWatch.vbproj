@@ -1,0 +1,245 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{C1408063-619E-4778-96DF-09B14F609072}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "pscMitaWatch.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "pscMitaWatch"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "pscMitaWatch"
+                StartupObject = "pscMitaWatch.frmMitaWatch"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                    HintPath = "F:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.Compatibility.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Remoting"
+                    AssemblyName = "System.Runtime.Remoting"
+                    HintPath = "F:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Remoting.dll"
+                />
+                <Reference
+                    Name = "pscMitaRunner"
+                    AssemblyName = "pscMitaRunner"
+                    HintPath = "bin\pscMitaRunner.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "pscLedEx"
+                    AssemblyName = "pscLedEx"
+                    HintPath = "..\..\DEVELOP\DotNet\pscLedEx\bin\pscLedEx.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "pscMitaDef"
+                    AssemblyName = "pscMitaDef"
+                    HintPath = "..\MitaCommon\bin\pscMitaDef.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "pscMitaMsg"
+                    AssemblyName = "pscMitaMsg"
+                    HintPath = "..\MitaMsg\bin\pscMitaMsg.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "pscMitaShared"
+                    AssemblyName = "pscMitaShared"
+                    HintPath = "..\MitaCommon\bin\pscMitaShared.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "pscMitaData"
+                    AssemblyName = "pscMitaData"
+                    HintPath = "..\MitaCommon\bin\pscMitaData.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "pscMitaConnect"
+                    AssemblyName = "pscMitaConnect"
+                    HintPath = "..\MitaConnect\bin\pscMitaConnect.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "pscMitaCand"
+                    AssemblyName = "pscMitaCand"
+                    HintPath = "bin\pscMitaCand.dll"
+                />
+                <Reference
+                    Name = "pscMitaLogin"
+                    AssemblyName = "pscMitaLogin"
+                    HintPath = "..\MitaLogin\bin\pscMitaLogin.dll"
+                />
+                <Reference
+                    Name = "pscMitaAbout"
+                    AssemblyName = "pscMitaAbout"
+                    HintPath = "..\MitaAbout\bin\pscMitaAbout.dll"
+                />
+                <Reference
+                    Name = "pscMitaSapSystem"
+                    AssemblyName = "pscMitaSapSystem"
+                    HintPath = "..\MitaSapSystem\bin\pscMitaSapSystem.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Baby.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "clsMitaProcess.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Crash.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMitaWatch.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMitaWatch.resx"
+                    DependentUpon = "frmMitaWatch.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSetup.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSetup.resx"
+                    DependentUpon = "frmSetup.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmStart.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmStart.resx"
+                    DependentUpon = "frmStart.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Gun.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "modMitaAdmin.vb"
+                    Link = "..\MitaTools\modMitaAdmin.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "modMitaProcess.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "modMitaWatch.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Phone.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "pscMitaWatch.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WatchInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

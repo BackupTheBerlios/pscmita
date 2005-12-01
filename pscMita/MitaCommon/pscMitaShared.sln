@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaShared", "pscMitaShared.vbproj", "{52352375-D15F-4D56-843D-DCC99B1B0117}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Debug.ActiveCfg = Debug|.NET
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Debug.Build.0 = Debug|.NET
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Release.ActiveCfg = Release|.NET
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

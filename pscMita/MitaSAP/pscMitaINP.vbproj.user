@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <VisualBasic LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "D:\PSCMita.NET_2.0.0\bin\;D:\DEVELOP\DotNet\pscLedEx\bin\;D:\PSCMita.NET_2.0.0\ProfilEx\bin\;D:\PSCMita.NET_2.0.0\MitaSapSystem\bin\;D:\PSCMita.NET_2.0.0\MitaOrder\bin\;D:\PSCMita.NET_2.0.0\MitaMsg\bin\;D:\PSCMita.NET_2.0.0\MitaError\bin\;D:\PSCMita.NET_2.0.0\MitaAbout\bin\;D:\PSCMita.NET_2.0.0\MitaLogin\bin\;D:\PSCMita.NET_2.0.0\MitaCommon\bin\;D:\PSCMita.NET_2.0.0\MitaSAP\bin\;D:\PSCMita.NET_2.0.0\MitaConnect\bin\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = "/save /minisap"
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </VisualBasic>
+</VisualStudioProject>
+

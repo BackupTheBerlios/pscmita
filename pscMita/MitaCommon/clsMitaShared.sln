@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "clsMitaShared", "clsMitaShared.vbproj", "{52352375-D15F-4D56-843D-DCC99B1B0117}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaDef", "pscMitaDef.vbproj", "{675AB706-FF18-42A3-B23A-6AED3E813EDA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaMsg", "..\MitaMsg\pscMitaMsg.vbproj", "{2726F214-8649-469F-8310-8C22C1FF103B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Debug.ActiveCfg = Debug|.NET
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Debug.Build.0 = Debug|.NET
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Release.ActiveCfg = Release|.NET
+		{52352375-D15F-4D56-843D-DCC99B1B0117}.Release.Build.0 = Release|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Debug.ActiveCfg = Debug|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Debug.Build.0 = Debug|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Release.ActiveCfg = Release|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Release.Build.0 = Release|.NET
+		{2726F214-8649-469F-8310-8C22C1FF103B}.Debug.ActiveCfg = Debug|.NET
+		{2726F214-8649-469F-8310-8C22C1FF103B}.Debug.Build.0 = Debug|.NET
+		{2726F214-8649-469F-8310-8C22C1FF103B}.Release.ActiveCfg = Release|.NET
+		{2726F214-8649-469F-8310-8C22C1FF103B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

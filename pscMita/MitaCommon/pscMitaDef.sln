@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaDef", "pscMitaDef.vbproj", "{675AB706-FF18-42A3-B23A-6AED3E813EDA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Debug.ActiveCfg = Debug|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Debug.Build.0 = Debug|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Release.ActiveCfg = Release|.NET
+		{675AB706-FF18-42A3-B23A-6AED3E813EDA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
