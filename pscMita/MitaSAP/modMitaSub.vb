@@ -22,7 +22,7 @@ Module modMitaSub
 	Public isIdle As Boolean
 	Public SapOrder As PSCMitaOrder.CMitaOrder
 	Public SapError As PscMitaError.CMitaError
-	Public savColor(4) As pscLedEx.pscLed.mainColor
+	Public savColor(4) As pscLedEx.NPSCLed.pscLed.mainColor
 	Public savColorIndex As Integer = -1
 
 	Public SAPClient As Short
@@ -239,7 +239,7 @@ Module modMitaSub
 	Public Sub colorStop()
 		If Not Formloaded Then Exit Sub
 		savColorIndex = -1
-		applicationForm.processLed.ledColor = pscLedEx.pscLed.mainColor.colorRed
+		applicationForm.processLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorRed
 		System.Windows.Forms.Application.DoEvents()
 	End Sub
 
@@ -247,27 +247,27 @@ Module modMitaSub
 		If Not Formloaded Then Exit Sub
 		savColorIndex = savColorIndex + 1
 		savColor(savColorIndex) = applicationForm.processLed.ledColor
-		applicationForm.processLed.ledColor = pscLedEx.pscLed.mainColor.colorYellow
+		applicationForm.processLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorYellow
 		System.Windows.Forms.Application.DoEvents()
 	End Sub
 	Public Sub colorDB()
 		If Not Formloaded Then Exit Sub
 		savColorIndex = savColorIndex + 1
 		savColor(savColorIndex) = applicationForm.processLed.ledColor
-		applicationForm.processLed.ledColor = pscLedEx.pscLed.mainColor.colorCyan
+		applicationForm.processLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorCyan
 		System.Windows.Forms.Application.DoEvents()
 	End Sub
 	Public Sub colorProcess()
 		If Not Formloaded Then Exit Sub
 		savColorIndex = savColorIndex + 1
 		savColor(savColorIndex) = applicationForm.processLed.ledColor
-		applicationForm.processLed.ledColor = pscLedEx.pscLed.mainColor.colorOrange
+		applicationForm.processLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorOrange
 		System.Windows.Forms.Application.DoEvents()
 	End Sub
 	Public Sub colorIdle()
 		If Not Formloaded Then Exit Sub
 		savColorIndex = -1
-		applicationForm.processLed.ledColor = pscLedEx.pscLed.mainColor.colorGrey
+		applicationForm.processLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorGrey
 		System.Windows.Forms.Application.DoEvents()
 	End Sub
 	Public Sub colorRestore()

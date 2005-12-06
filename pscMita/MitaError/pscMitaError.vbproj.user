@@ -1,7 +1,7 @@
 <VisualStudioProject>
     <VisualBasic LastOpenVersion = "7.10.3077" >
         <Build>
-            <Settings ReferencePath = "D:\PSCMita.NET\MitaMsg\bin\;D:\PSCMita.NET\MitaConnect\bin\;D:\PSCMita.NET\MitaCommon\bin\;D:\PSCMita.NET\MitaSAP\bin\;D:\PSCMita.NET_2.0.0\MitaCommon\bin\;D:\PSCMita.NET_2.0.0\MitaSAP\bin\;D:\PSCMita.NET_2.0.0\MitaMsg\bin\;D:\PSCMita.NET_2.0.0\MitaSapSystem\bin\;D:\PSCMita.NET_2.0.0\MitaConnect\bin\" >
+            <Settings ReferencePath = "D:\pscMita\MitaCommon\bin\;D:\pscMita\MitaSAP\bin\;D:\pscMita\MitaConnect\bin\;D:\pscMita\MitaMsg\bin\;D:\pscMita\MitaSapSystem\bin\" >
                 <Config
                     Name = "Debug"
                     EnableASPDebugging = "false"

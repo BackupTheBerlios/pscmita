@@ -1,7 +1,7 @@
 <VisualStudioProject>
     <VisualBasic LastOpenVersion = "7.10.3077" >
         <Build>
-            <Settings ReferencePath = "D:\PSCMita.NET_2.0.0\MitaSapSystem\bin\;D:\PSCMita.NET_2.0.0\bin\;D:\DEVELOP\DotNet\pscLedEx\bin\;D:\PSCMita.NET_2.0.0\ProfilEx\bin\;D:\PSCMita.NET_2.0.0\MitaError\bin\;D:\PSCMita.NET_2.0.0\MitaAbout\bin\;D:\PSCMita.NET_2.0.0\MitaMsg\bin\;D:\PSCMita.NET_2.0.0\MitaOrder\bin\;D:\PSCMita.NET_2.0.0\MitaLogin\bin\;D:\PSCMita.NET_2.0.0\MitaCommon\bin\;D:\PSCMita.NET_2.0.0\MitaSAP\bin\;D:\PSCMita.NET_2.0.0\MitaConnect\bin\;D:\PSCMita.NET_2.0.0\MitaSapPool\bin\" >
+            <Settings ReferencePath = "D:\pscMita\bin\Support\DLL\;D:\pscMita\MitaSAP\bin\;D:\pscMita\MitaSapPool\bin\" >
                 <Config
                     Name = "Debug"
                     EnableASPDebugging = "false"
@@ -11,7 +11,7 @@
                     RemoteDebugEnabled = "false"
                     RemoteDebugMachine = ""
                     StartAction = "Project"
-                    StartArguments = "/DIR=C:\ATEX\SAPIX\test\*.sav /DEVELOP /PROFILE"
+                    StartArguments = ""
                     StartPage = ""
                     StartProgram = ""
                     StartURL = ""
@@ -27,7 +27,7 @@
                     RemoteDebugEnabled = "false"
                     RemoteDebugMachine = ""
                     StartAction = "Project"
-                    StartArguments = "/ICONTRAY /CENTER"
+                    StartArguments = ""
                     StartPage = ""
                     StartProgram = ""
                     StartURL = ""

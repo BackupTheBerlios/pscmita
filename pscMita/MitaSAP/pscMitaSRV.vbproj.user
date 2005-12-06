@@ -1,7 +1,7 @@
 <VisualStudioProject>
     <VisualBasic LastOpenVersion = "7.10.3077" >
         <Build>
-            <Settings ReferencePath = "D:\PSCMita.NET_2.0.0\MitaSapPool\bin\;D:\PSCMita.NET_2.0.0\MitaSapSystem\bin\;D:\DEVELOP\DotNet\pscLedEx\bin\;D:\PSCMita.NET_2.0.0\ProfilEx\bin\;D:\PSCMita.NET_2.0.0\MitaOrder\bin\;D:\PSCMita.NET_2.0.0\MitaError\bin\;D:\PSCMita.NET_2.0.0\MitaConnect\bin\;D:\PSCMita.NET_2.0.0\MitaLogin\bin\;D:\PSCMita.NET_2.0.0\MitaAbout\bin\;D:\PSCMita.NET_2.0.0\MitaMsg\bin\;D:\PSCMita.NET_2.0.0\MitaCommon\bin\;D:\PSCMita.NET_2.0.0\MitaSAP\bin\" >
+            <Settings ReferencePath = "D:\pscMita\bin\Support\DLL\;D:\pscMita\MitaSAP\bin\;D:\DEVELOP\DotNet\pscLedEx\bin\" >
                 <Config
                     Name = "Debug"
                     EnableASPDebugging = "false"
@@ -16,7 +16,7 @@
                     StartProgram = ""
                     StartURL = ""
                     StartWorkingDirectory = ""
-                    StartWithIE = "false"
+                    StartWithIE = "true"
                 />
                 <Config
                     Name = "Release"
@@ -32,7 +32,7 @@
                     StartProgram = ""
                     StartURL = ""
                     StartWorkingDirectory = ""
-                    StartWithIE = "false"
+                    StartWithIE = "true"
                 />
             </Settings>
         </Build>

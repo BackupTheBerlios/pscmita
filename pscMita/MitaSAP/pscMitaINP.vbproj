@@ -102,25 +102,6 @@
                     HintPath = "F:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Remoting.dll"
                 />
                 <Reference
-                    Name = "adodb"
-                    AssemblyName = "ADODB"
-                    HintPath = "F:\Programme\Microsoft.NET\Primary Interop Assemblies\adodb.dll"
-                    AssemblyFolderKey = "hklm\primary interop assemblies"
-                    Private = "True"
-                />
-                <Reference
-                    Name = "Interop.ADODB"
-                    AssemblyName = "Interop.ADODB"
-                    HintPath = "..\bin\Interop.ADODB.dll"
-                    Private = "True"
-                />
-                <Reference
-                    Name = "pscProfilEx"
-                    AssemblyName = "pscProfilEx"
-                    HintPath = "..\ProfilEx\bin\pscProfilEx.dll"
-                    Private = "True"
-                />
-                <Reference
                     Name = "pscMitaSAPDef"
                     AssemblyName = "pscMitaSAPDef"
                     HintPath = "bin\pscMitaSAPDef.dll"
@@ -160,7 +141,7 @@
                     Name = "pscLedEx"
                     AssemblyName = "pscLedEx"
                     HintPath = "..\..\DEVELOP\DotNet\pscLedEx\bin\pscLedEx.dll"
-                    Private = "True"
+                    Private = "False"
                 />
                 <Reference
                     Name = "pscMitaDef"
@@ -199,6 +180,18 @@
                     Name = "pscMitaSapSystem"
                     AssemblyName = "pscMitaSapSystem"
                     HintPath = "..\MitaSapSystem\bin\pscMitaSapSystem.dll"
+                />
+                <Reference
+                    Name = "Interop.ADODB"
+                    AssemblyName = "Interop.ADODB"
+                    HintPath = "..\bin\Support\DLL\Interop.ADODB.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "pscProfilEx"
+                    AssemblyName = "pscProfilEx"
+                    HintPath = "..\bin\Support\DLL\pscProfilEx.dll"
+                    Private = "False"
                 />
             </References>
             <Imports>

@@ -97,24 +97,6 @@
                     HintPath = "F:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.OracleClient.dll"
                 />
                 <Reference
-                    Name = "adodb"
-                    AssemblyName = "ADODB"
-                    HintPath = "F:\Programme\Microsoft.NET\Primary Interop Assemblies\adodb.dll"
-                    AssemblyFolderKey = "hklm\primary interop assemblies"
-                />
-                <Reference
-                    Name = "Interop.ADODB"
-                    AssemblyName = "Interop.ADODB"
-                    HintPath = "..\bin\Interop.ADODB.dll"
-                    Private = "False"
-                />
-                <Reference
-                    Name = "pscProfilEx"
-                    AssemblyName = "pscProfilEx"
-                    HintPath = "..\ProfilEx\bin\pscProfilEx.dll"
-                    Private = "True"
-                />
-                <Reference
                     Name = "pscMitaSAPDef"
                     AssemblyName = "pscMitaSAPDef"
                     HintPath = "bin\pscMitaSAPDef.dll"
@@ -163,12 +145,6 @@
                     Private = "True"
                 />
                 <Reference
-                    Name = "pscLedEx"
-                    AssemblyName = "pscLedEx"
-                    HintPath = "..\..\DEVELOP\DotNet\pscLedEx\bin\pscLedEx.dll"
-                    Private = "True"
-                />
-                <Reference
                     Name = "pscMitaLogin"
                     AssemblyName = "pscMitaLogin"
                     HintPath = "..\MitaLogin\bin\pscMitaLogin.dll"
@@ -200,6 +176,24 @@
                     Name = "pscPoolStruct"
                     AssemblyName = "pscPoolStruct"
                     HintPath = "..\MitaSapPool\bin\pscPoolStruct.dll"
+                />
+                <Reference
+                    Name = "pscProfilEx"
+                    AssemblyName = "pscProfilEx"
+                    HintPath = "..\bin\Support\DLL\pscProfilEx.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Interop.ADODB"
+                    AssemblyName = "Interop.ADODB"
+                    HintPath = "..\bin\Support\DLL\Interop.ADODB.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "pscLedEx"
+                    AssemblyName = "pscLedEx"
+                    HintPath = "..\bin\Support\DLL\pscLedEx.dll"
+                    Private = "False"
                 />
             </References>
             <Imports>
