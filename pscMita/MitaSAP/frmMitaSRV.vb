@@ -2,6 +2,7 @@ Option Strict Off
 Option Explicit On 
 Imports VB = Microsoft.VisualBasic
 Imports pscMitaDef.CMitaDef
+Imports NPSCLed.PscLed
 Friend Class frmMitaSRV
 	Inherits System.Windows.Forms.Form
 
@@ -46,8 +47,8 @@ Friend Class frmMitaSRV
 	Friend WithEvents ToolBarButton15 As System.Windows.Forms.ToolBarButton
 	Friend WithEvents ToolBarButton16 As System.Windows.Forms.ToolBarButton
 	Friend WithEvents SAPMld As System.Windows.Forms.ListBox
-	Friend WithEvents processLed As pscLedEx.NPSCLed.pscLed
-	Friend WithEvents aliveLed As pscLedEx.NPSCLed.pscLed
+	Friend WithEvents processLed As NPSCLed.PscLed
+	Friend WithEvents aliveLed As NPSCLed.PscLed
 	Friend WithEvents NotifyIcon As System.Windows.Forms.NotifyIcon
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
 		Me.components = New System.ComponentModel.Container
@@ -76,8 +77,8 @@ Friend Class frmMitaSRV
 		Me.ToolBarButton14 = New System.Windows.Forms.ToolBarButton
 		Me.ToolBarButton13 = New System.Windows.Forms.ToolBarButton
 		Me.ToolBarButton16 = New System.Windows.Forms.ToolBarButton
-		Me.processLed = New pscLedEx.NPSCLed.pscLed
-		Me.aliveLed = New pscLedEx.NPSCLed.pscLed
+		Me.processLed = New NPSCLed.PscLed
+		Me.aliveLed = New NPSCLed.PscLed
 		Me.NotifyIcon = New System.Windows.Forms.NotifyIcon(Me.components)
 		Me.Panel2.SuspendLayout()
 		Me.SuspendLayout()
@@ -232,23 +233,23 @@ Friend Class frmMitaSRV
 		'
 		Me.processLed.CausesValidation = False
 		Me.processLed.ledBackTransparent = False
-		Me.processLed.ledBeep = pscLedEx.NPSCLed.pscLed.ledAudio.audioOff
-		Me.processLed.ledBlinkSpeed = pscLedEx.NPSCLed.pscLed.blinkSpeed.blinkVeryFast
-		Me.processLed.ledBorder = pscLedEx.NPSCLed.pscLed.ledBorderStyle.None
-		Me.processLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorGreen
-		Me.processLed.ledColorBlink = pscLedEx.NPSCLed.pscLed.blinkColor.colorDark
-		Me.processLed.ledDesignBehaviour = pscLedEx.NPSCLed.pscLed.ledDesignMode.blinkOn_audioOff
+		Me.processLed.ledBeep = ledAudio.audioOff
+		Me.processLed.ledBlinkSpeed = blinkSpeed.blinkVeryFast
+		Me.processLed.ledBorder = ledBorderStyle.None
+		Me.processLed.ledColor = mainColor.colorGreen
+		Me.processLed.ledColorBlink = blinkColor.colorDark
+		Me.processLed.ledDesignBehaviour = ledDesignMode.blinkOn_audioOff
 		Me.processLed.ledFlashNext = Nothing
-		Me.processLed.ledNextTrigger = pscLedEx.NPSCLed.pscLed.ledTrigger.nextDirect
-		Me.processLed.ledSize = pscLedEx.NPSCLed.pscLed.ledModel.sizeLarge
+		Me.processLed.ledNextTrigger = ledTrigger.nextDirect
+		Me.processLed.ledSize = ledModel.sizeLarge
 		Me.processLed.ledSoundFile = ""
-		Me.processLed.ledStatus = pscLedEx.NPSCLed.pscLed.ledModus.ledOn
+		Me.processLed.ledStatus = ledModus.ledOn
 		Me.processLed.Location = New System.Drawing.Point(448, 186)
 		Me.processLed.Name = "processLed"
 		Me.processLed.Size = New System.Drawing.Size(32, 32)
 		Me.processLed.socketColor = System.Drawing.KnownColor.Silver
-		Me.processLed.socketFeature = pscLedEx.NPSCLed.pscLed.ledSocketFeature.socketRaised
-		Me.processLed.socketWidth = pscLedEx.NPSCLed.pscLed.ledSocketWidth.widthSmall
+		Me.processLed.socketFeature = ledSocketFeature.socketRaised
+		Me.processLed.socketWidth = ledSocketWidth.widthSmall
 		Me.processLed.TabIndex = 16
 		Me.processLed.toolTip = Nothing
 		'
@@ -256,23 +257,23 @@ Friend Class frmMitaSRV
 		'
 		Me.aliveLed.CausesValidation = False
 		Me.aliveLed.ledBackTransparent = False
-		Me.aliveLed.ledBeep = pscLedEx.NPSCLed.pscLed.ledAudio.audioOff
-		Me.aliveLed.ledBlinkSpeed = pscLedEx.NPSCLed.pscLed.blinkSpeed.blinkVeryFast
-		Me.aliveLed.ledBorder = pscLedEx.NPSCLed.pscLed.ledBorderStyle.None
-		Me.aliveLed.ledColor = pscLedEx.NPSCLed.pscLed.mainColor.colorGreen
-		Me.aliveLed.ledColorBlink = pscLedEx.NPSCLed.pscLed.blinkColor.colorDark
-		Me.aliveLed.ledDesignBehaviour = pscLedEx.NPSCLed.pscLed.ledDesignMode.blinkOn_audioOff
+		Me.aliveLed.ledBeep = ledAudio.audioOff
+		Me.aliveLed.ledBlinkSpeed = blinkSpeed.blinkVeryFast
+		Me.aliveLed.ledBorder = ledBorderStyle.None
+		Me.aliveLed.ledColor = mainColor.colorGreen
+		Me.aliveLed.ledColorBlink = blinkColor.colorDark
+		Me.aliveLed.ledDesignBehaviour = ledDesignMode.blinkOn_audioOff
 		Me.aliveLed.ledFlashNext = Nothing
-		Me.aliveLed.ledNextTrigger = pscLedEx.NPSCLed.pscLed.ledTrigger.nextDirect
-		Me.aliveLed.ledSize = pscLedEx.NPSCLed.pscLed.ledModel.sizeLarge
+		Me.aliveLed.ledNextTrigger = ledTrigger.nextDirect
+		Me.aliveLed.ledSize = ledModel.sizeLarge
 		Me.aliveLed.ledSoundFile = ""
-		Me.aliveLed.ledStatus = pscLedEx.NPSCLed.pscLed.ledModus.ledOn
+		Me.aliveLed.ledStatus = ledModus.ledOn
 		Me.aliveLed.Location = New System.Drawing.Point(480, 186)
 		Me.aliveLed.Name = "aliveLed"
 		Me.aliveLed.Size = New System.Drawing.Size(32, 32)
 		Me.aliveLed.socketColor = System.Drawing.KnownColor.Silver
-		Me.aliveLed.socketFeature = pscLedEx.NPSCLed.pscLed.ledSocketFeature.socketRaised
-		Me.aliveLed.socketWidth = pscLedEx.NPSCLed.pscLed.ledSocketWidth.widthSmall
+		Me.aliveLed.socketFeature = ledSocketFeature.socketRaised
+		Me.aliveLed.socketWidth = ledSocketWidth.widthSmall
 		Me.aliveLed.TabIndex = 17
 		Me.aliveLed.toolTip = Nothing
 		'
