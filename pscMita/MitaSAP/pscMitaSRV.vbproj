@@ -190,10 +190,9 @@
                     Private = "False"
                 />
                 <Reference
-                    Name = "pscLedEx"
-                    AssemblyName = "pscLedEx"
-                    HintPath = "..\bin\Support\DLL\pscLedEx.dll"
-                    Private = "False"
+                    Name = "pscLed"
+                    AssemblyName = "pscLed"
+                    HintPath = "..\bin\Support\DLL\pscLed.dll"
                 />
             </References>
             <Imports>

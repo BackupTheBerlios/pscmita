@@ -138,12 +138,6 @@
                     Private = "True"
                 />
                 <Reference
-                    Name = "pscLedEx"
-                    AssemblyName = "pscLedEx"
-                    HintPath = "..\..\DEVELOP\DotNet\pscLedEx\bin\pscLedEx.dll"
-                    Private = "False"
-                />
-                <Reference
                     Name = "pscMitaDef"
                     AssemblyName = "pscMitaDef"
                     HintPath = "..\MitaCommon\bin\pscMitaDef.dll"
@@ -188,10 +182,14 @@
                     Private = "False"
                 />
                 <Reference
+                    Name = "pscLed"
+                    AssemblyName = "pscLed"
+                    HintPath = "..\bin\Support\DLL\pscLed.dll"
+                />
+                <Reference
                     Name = "pscProfilEx"
                     AssemblyName = "pscProfilEx"
                     HintPath = "..\bin\Support\DLL\pscProfilEx.dll"
-                    Private = "False"
                 />
             </References>
             <Imports>
