@@ -120,12 +120,6 @@
                     Private = "True"
                 />
                 <Reference
-                    Name = "pscMitaOrder"
-                    AssemblyName = "pscMitaOrder"
-                    HintPath = "..\MitaOrder\bin\pscMitaOrder.dll"
-                    Private = "True"
-                />
-                <Reference
                     Name = "pscMitaMsg"
                     AssemblyName = "pscMitaMsg"
                     HintPath = "..\MitaMsg\bin\pscMitaMsg.dll"
@@ -190,6 +184,11 @@
                     Name = "pscProfilEx"
                     AssemblyName = "pscProfilEx"
                     HintPath = "..\bin\Support\DLL\pscProfilEx.dll"
+                />
+                <Reference
+                    Name = "pscMitaOrder"
+                    AssemblyName = "pscMitaOrder"
+                    HintPath = "..\MitaOrder\bin\pscMitaOrder.dll"
                 />
             </References>
             <Imports>

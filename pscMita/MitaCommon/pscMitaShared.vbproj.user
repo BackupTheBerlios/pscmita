@@ -1,7 +1,7 @@
 <VisualStudioProject>
     <VisualBasic LastOpenVersion = "7.10.3077" >
         <Build>
-            <Settings ReferencePath = "D:\pscMita\MitaConnect\bin\;D:\pscMita\MitaCommon\bin\" >
+            <Settings ReferencePath = "D:\pscMita\MitaConnect\bin\;D:\pscMita\MitaCommon\bin\;D:\Open Source\pscMita\MitaConnect\bin\" >
                 <Config
                     Name = "Debug"
                     EnableASPDebugging = "false"

@@ -7,28 +7,6 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaMsg", "..\MitaMsg\ps
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSapServer", "..\MitaSAP\pscMitaSapServer.vbproj", "{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}"
-	ProjectSection(ProjectDependencies) = postProject
-		{675AB706-FF18-42A3-B23A-6AED3E813EDA} = {675AB706-FF18-42A3-B23A-6AED3E813EDA}
-		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E} = {2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}
-	EndProjectSection
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSAPDef", "..\MitaSAP\pscMitaSAPDef.vbproj", "{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscProfilEx", "..\ProfilEx\pscProfilEx.vbproj", "{5FD92488-21E8-456B-9E63-73CE0AF76205}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSapClient", "..\MitaSAP\pscMitaSapClient.vbproj", "{BA879293-613C-4332-A039-98F34933ACA4}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pscMitaRunner", "..\MitaWatch\pscMitaRunner.csproj", "{59C3B524-8EDB-48A9-B70C-8A7CD83E728F}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaAbout", "..\MitaAbout\pscMitaAbout.vbproj", "{3542D9A8-132E-48A1-B3B9-B6921BCC5273}"
 	ProjectSection(ProjectDependencies) = postProject
 		{675AB706-FF18-42A3-B23A-6AED3E813EDA} = {675AB706-FF18-42A3-B23A-6AED3E813EDA}
@@ -61,11 +39,6 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaConnect", "..\MitaCo
 		{F4D25B2B-45B4-4114-9392-498FDAE1DAE9} = {F4D25B2B-45B4-4114-9392-498FDAE1DAE9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pscMitaAgent", "..\MitaWatch\pscMitaAgent.csproj", "{2FFC8189-1C72-44D3-8543-B70371169CD7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{59C3B524-8EDB-48A9-B70C-8A7CD83E728F} = {59C3B524-8EDB-48A9-B70C-8A7CD83E728F}
-	EndProjectSection
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSapSystem", "..\MitaSapSystem\pscMitaSapSystem.vbproj", "{6A9B9555-92B3-46F7-AC40-B0E32DE03981}"
 	ProjectSection(ProjectDependencies) = postProject
 		{675AB706-FF18-42A3-B23A-6AED3E813EDA} = {675AB706-FF18-42A3-B23A-6AED3E813EDA}
@@ -75,7 +48,15 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscPoolStruct", "..\MitaSap
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscLedEx", "..\..\DEVELOP\DotNet\pscLedEx\pscLedEx.vbproj", "{0E5749A9-2110-4FA3-B737-E7586DA02489}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSAPDef", "..\MitaSAP\pscMitaSAPDef.vbproj", "{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSapServer", "..\MitaSAP\pscMitaSapServer.vbproj", "{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pscMitaSapClient", "..\MitaSAP\pscMitaSapClient.vbproj", "{BA879293-613C-4332-A039-98F34933ACA4}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
@@ -93,26 +74,6 @@ Global
 		{2726F214-8649-469F-8310-8C22C1FF103B}.Debug.Build.0 = Debug|.NET
 		{2726F214-8649-469F-8310-8C22C1FF103B}.Release.ActiveCfg = Release|.NET
 		{2726F214-8649-469F-8310-8C22C1FF103B}.Release.Build.0 = Release|.NET
-		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Debug.ActiveCfg = Debug|.NET
-		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Debug.Build.0 = Debug|.NET
-		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Release.ActiveCfg = Release|.NET
-		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Release.Build.0 = Release|.NET
-		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Debug.ActiveCfg = Debug|.NET
-		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Debug.Build.0 = Debug|.NET
-		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Release.ActiveCfg = Release|.NET
-		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Release.Build.0 = Release|.NET
-		{5FD92488-21E8-456B-9E63-73CE0AF76205}.Debug.ActiveCfg = Debug|.NET
-		{5FD92488-21E8-456B-9E63-73CE0AF76205}.Debug.Build.0 = Debug|.NET
-		{5FD92488-21E8-456B-9E63-73CE0AF76205}.Release.ActiveCfg = Release|.NET
-		{5FD92488-21E8-456B-9E63-73CE0AF76205}.Release.Build.0 = Release|.NET
-		{BA879293-613C-4332-A039-98F34933ACA4}.Debug.ActiveCfg = Debug|.NET
-		{BA879293-613C-4332-A039-98F34933ACA4}.Debug.Build.0 = Debug|.NET
-		{BA879293-613C-4332-A039-98F34933ACA4}.Release.ActiveCfg = Release|.NET
-		{BA879293-613C-4332-A039-98F34933ACA4}.Release.Build.0 = Release|.NET
-		{59C3B524-8EDB-48A9-B70C-8A7CD83E728F}.Debug.ActiveCfg = Debug|.NET
-		{59C3B524-8EDB-48A9-B70C-8A7CD83E728F}.Debug.Build.0 = Debug|.NET
-		{59C3B524-8EDB-48A9-B70C-8A7CD83E728F}.Release.ActiveCfg = Release|.NET
-		{59C3B524-8EDB-48A9-B70C-8A7CD83E728F}.Release.Build.0 = Release|.NET
 		{3542D9A8-132E-48A1-B3B9-B6921BCC5273}.Debug.ActiveCfg = Debug|.NET
 		{3542D9A8-132E-48A1-B3B9-B6921BCC5273}.Debug.Build.0 = Debug|.NET
 		{3542D9A8-132E-48A1-B3B9-B6921BCC5273}.Release.ActiveCfg = Release|.NET
@@ -133,10 +94,6 @@ Global
 		{43591630-7B46-4E9A-8C93-3B6647C542AA}.Debug.Build.0 = Debug|.NET
 		{43591630-7B46-4E9A-8C93-3B6647C542AA}.Release.ActiveCfg = Release|.NET
 		{43591630-7B46-4E9A-8C93-3B6647C542AA}.Release.Build.0 = Release|.NET
-		{2FFC8189-1C72-44D3-8543-B70371169CD7}.Debug.ActiveCfg = Debug|.NET
-		{2FFC8189-1C72-44D3-8543-B70371169CD7}.Debug.Build.0 = Debug|.NET
-		{2FFC8189-1C72-44D3-8543-B70371169CD7}.Release.ActiveCfg = Release|.NET
-		{2FFC8189-1C72-44D3-8543-B70371169CD7}.Release.Build.0 = Release|.NET
 		{6A9B9555-92B3-46F7-AC40-B0E32DE03981}.Debug.ActiveCfg = Debug|.NET
 		{6A9B9555-92B3-46F7-AC40-B0E32DE03981}.Debug.Build.0 = Debug|.NET
 		{6A9B9555-92B3-46F7-AC40-B0E32DE03981}.Release.ActiveCfg = Release|.NET
@@ -145,10 +102,18 @@ Global
 		{926AEA9D-E82D-4259-B75D-8E16B9139293}.Debug.Build.0 = Debug|.NET
 		{926AEA9D-E82D-4259-B75D-8E16B9139293}.Release.ActiveCfg = Release|.NET
 		{926AEA9D-E82D-4259-B75D-8E16B9139293}.Release.Build.0 = Release|.NET
-		{0E5749A9-2110-4FA3-B737-E7586DA02489}.Debug.ActiveCfg = Debug|.NET
-		{0E5749A9-2110-4FA3-B737-E7586DA02489}.Debug.Build.0 = Debug|.NET
-		{0E5749A9-2110-4FA3-B737-E7586DA02489}.Release.ActiveCfg = Release|.NET
-		{0E5749A9-2110-4FA3-B737-E7586DA02489}.Release.Build.0 = Release|.NET
+		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Debug.ActiveCfg = Debug|.NET
+		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Debug.Build.0 = Debug|.NET
+		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Release.ActiveCfg = Release|.NET
+		{2E69B998-CA2D-4796-B6C2-CE35F1E3BE6E}.Release.Build.0 = Release|.NET
+		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Debug.ActiveCfg = Debug|.NET
+		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Debug.Build.0 = Debug|.NET
+		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Release.ActiveCfg = Release|.NET
+		{9CCBBEBB-7908-4F7B-88A7-9C89C8615D13}.Release.Build.0 = Release|.NET
+		{BA879293-613C-4332-A039-98F34933ACA4}.Debug.ActiveCfg = Debug|.NET
+		{BA879293-613C-4332-A039-98F34933ACA4}.Debug.Build.0 = Debug|.NET
+		{BA879293-613C-4332-A039-98F34933ACA4}.Release.ActiveCfg = Release|.NET
+		{BA879293-613C-4332-A039-98F34933ACA4}.Release.Build.0 = Release|.NET
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 	EndGlobalSection

@@ -1,7 +1,7 @@
 <VisualStudioProject>
     <VisualBasic LastOpenVersion = "7.10.3077" >
         <Build>
-            <Settings ReferencePath = "D:\pscMita\bin\Support\DLL\;D:\pscMita\MitaSAP\bin\;D:\pscMita\MitaSapPool\bin\" >
+            <Settings ReferencePath = "D:\pscMita\bin\Support\DLL\;D:\pscMita\MitaSAP\bin\;D:\pscMita\MitaSapPool\bin\;D:\Open Source\pscMita\MitaSAP\bin\" >
                 <Config
                     Name = "Debug"
                     EnableASPDebugging = "false"
