@@ -1,7 +1,7 @@
 <VisualStudioProject>
     <VisualBasic LastOpenVersion = "7.10.3077" >
         <Build>
-            <Settings ReferencePath = "D:\Open Source\pscMita\MitaOrder\bin\;D:\pscMita\MitaSAP\bin\;D:\pscMita\MitaOrder\bin\;D:\pscMita\MitaMsg\bin\;D:\pscMita\MitaError\bin\;D:\pscMita\MitaCommon\bin\;D:\pscMita\MitaConnect\bin\;D:\pscMita\MitaAbout\bin\;D:\pscMita\MitaLogin\bin\;D:\pscMita\MitaSapSystem\bin\;D:\pscMita\bin\Support\DLL\;D:\Open Source\pscMita\MitaSAP\bin\" >
+            <Settings ReferencePath = "D:\Open Source\pscMita\MitaOrder\bin\;D:\pscMita\MitaSAP\bin\;D:\pscMita\MitaOrder\bin\;D:\pscMita\MitaMsg\bin\;D:\pscMita\MitaError\bin\;D:\pscMita\MitaCommon\bin\;D:\pscMita\MitaConnect\bin\;D:\pscMita\MitaAbout\bin\;D:\pscMita\MitaLogin\bin\;D:\pscMita\MitaSapSystem\bin\;D:\pscMita\bin\Support\DLL\;D:\Open Source\pscMita\MitaSAP\bin\;D:\Open Source\pscMita\bin\Support\DLL\" >
                 <Config
                     Name = "Debug"
                     EnableASPDebugging = "false"
